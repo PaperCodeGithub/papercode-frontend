@@ -11,7 +11,6 @@ function App() {
 
   return (
     <Router>
-      <title>Paper Code</title>
       <div className='min-h-screen'>
         <Navbar/>
         <main className='p-8'>
