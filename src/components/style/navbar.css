@@ -29,6 +29,8 @@ body {
   padding: 1rem 2.5rem;
   background-color: var(--bg-main); 
   border-bottom: 1px solid var(--border-color);
+  position: relative; 
+  z-index: 50;
 }
 
 .navbar-brand {
@@ -101,6 +103,7 @@ body {
     padding: 1rem 1.5rem;
     gap: 0.5rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5); /* Adds a drop shadow to the menu */
+    z-index: 40
   }
 
   .navbar-links.is-open {
