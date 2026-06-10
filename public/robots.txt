@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://papercode-frontend.vercel.app/sitemap_live.xml
