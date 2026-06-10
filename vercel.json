@@ -1,8 +1,8 @@
 {
   "rewrites": [
-    {
-      "source": "/((?!.*\\..*).*)",
-      "destination": "/index.html"
-    }
+    { "source": "/projects", "destination": "/index.html" },
+    { "source": "/marketplace", "destination": "/index.html" },
+    { "source": "/experiments", "destination": "/index.html" },
+    { "source": "/about", "destination": "/index.html" }
   ]
 }
